@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+@theme {
+    --color-silver: #F5F7FA;
+}
