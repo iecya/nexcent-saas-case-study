@@ -13,28 +13,42 @@
         <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="./assets/Logo.png" class="h-5" alt="Nexcent Logo" />
         </a>
-        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-default" aria-expanded="false" id="mobile-menu-toggle-button">
+        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base lg:hidden hover:text-heading focus:outline-none" aria-controls="navbar-default" aria-expanded="false" id="mobile-menu-toggle-button">
             <span class="sr-only">Open main menu</span>
             <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
         </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
+        <div class="hidden w-full lg:block lg:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 lg:p-0 mt-4 rounded-base bg-neutral-secondary-soft lg:flex-row lg:space-x-8 rtl:space-x-reverse lg:mt-0 lg:border-0 lg:bg-neutral-primary">
                 <li>
-                    <a href="#" class="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Home</a>
+                    <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary lg:hover:bg-transparent lg:border-0 lg:hover:text-fg-brand lg:p-0 lg:dark:hover:bg-transparent" aria-current="page">Home</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">About</a>
+                    <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary lg:hover:bg-transparent lg:border-0 lg:hover:text-fg-brand lg:p-0 lg:dark:hover:bg-transparent">Service</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Services</a>
+                    <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary lg:hover:bg-transparent lg:border-0 lg:hover:text-fg-brand lg:p-0 lg:dark:hover:bg-transparent">Feature</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Pricing</a>
+                    <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary lg:hover:bg-transparent lg:border-0 lg:hover:text-fg-brand lg:p-0 lg:dark:hover:bg-transparent">Product</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Contact</a>
+                    <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary lg:hover:bg-transparent lg:border-0 lg:hover:text-fg-brand lg:p-0 lg:dark:hover:bg-transparent">Testimonial</a>
+                </li>
+                <li>
+                    <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary lg:hover:bg-transparent lg:border-0 lg:hover:text-fg-brand lg:p-0 lg:dark:hover:bg-transparent">FAQ</a>
+                </li>
+                <li class="border-b my-2 lg:hidden"></li>
+                <li class="lg:hidden">
+                    <a href="#" class="btn-secondary my-2">Login</a>
+                </li>
+                <li class="lg:hidden">
+                    <a href="#" class="btn-primary my-2">Sign up</a>
                 </li>
             </ul>
+        </div>
+        <div class="hidden lg:block lg:w-auto">
+            <a href="#" class="btn border-0 bg-transparent text-sm text-primary">Login</a>
+            <a href="#" class="btn-primary text-sm">Sign up</a>
         </div>
     </div>
 </nav>

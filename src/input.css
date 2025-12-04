@@ -1,5 +1,20 @@
 @import "tailwindcss";
 
 @theme {
+    --color-primary: #4CAF4F;
+    --color-black: #000000;
+    --color-dark-grey: #4D4D4D;
     --color-silver: #F5F7FA;
+}
+
+@utility btn {
+    @apply border border-primary rounded py-2 px-8;
+}
+
+.btn-primary {
+    @apply btn inline-block  w-auto text-silver bg-primary;
+}
+
+.btn-secondary {
+    @apply btn inline-block w-auto text-primary bg-white;
 }
