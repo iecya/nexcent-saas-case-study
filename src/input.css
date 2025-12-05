@@ -47,6 +47,10 @@ footer p {
     @apply text-silver;
 }
 
+a:hover {
+    @apply underline;
+}
+
 .btn-primary {
     @apply btn w-auto text-silver bg-primary;
 }
