@@ -39,6 +39,10 @@
     @apply font-bold text-2xl/9 text-dark-grey;
 }
 
+section {
+    @apply w-full py-8;
+}
+
 p {
     @apply text-grey;
 }
@@ -104,7 +108,7 @@ a:hover {
 }
 
 .hero-banner {
-    @apply flex-col lg:flex-row-reverse lg:py-22;
+    @apply flex-col lg:flex-row-reverse lg:py-14;
 }
 
 .client-logos {
@@ -140,7 +144,7 @@ a:hover {
 }
 
 .achievements {
-    @apply text-center flex-col justify-center lg:flex-row lg:gap-16 lg:py-12;
+    @apply text-center flex-col justify-center lg:flex-row lg:gap-16 lg:py-4;
 
     .achivement-items {
         @apply grid gap-x-2 gap-y-6 grid-cols-1 md:grid-cols-2 md:gap-x-16;

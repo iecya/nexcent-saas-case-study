@@ -341,6 +341,14 @@
       margin-inline-end: calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-x-reverse)));
     }
   }
+  .btn {
+    border-radius: 0.25rem;
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+    border-color: var(--color-primary);
+    padding-inline: calc(var(--spacing) * 8);
+    padding-block: calc(var(--spacing) * 2);
+  }
   .rounded-lg {
     border-radius: var(--radius-lg);
   }
@@ -366,6 +374,9 @@
   .bg-black {
     background-color: var(--color-black);
   }
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
   .bg-silver {
     background-color: var(--color-silver);
   }
@@ -381,8 +392,14 @@
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
+  .px-8 {
+    padding-inline: calc(var(--spacing) * 8);
+  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
+  }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
   }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
@@ -442,6 +459,9 @@
   }
   .text-silver {
     color: var(--color-silver);
+  }
+  .text-white {
+    color: var(--color-white);
   }
   .shadow-md\/40 {
     --tw-shadow-alpha: 40%;
@@ -740,7 +760,7 @@ a:hover {
     flex-direction: row-reverse;
   }
   @media (width >= 64rem) {
-    padding-block: calc(var(--spacing) * 22);
+    padding-block: calc(var(--spacing) * 14);
   }
 }
 .client-logos {
@@ -814,7 +834,7 @@ a:hover {
     gap: calc(var(--spacing) * 16);
   }
   @media (width >= 64rem) {
-    padding-block: calc(var(--spacing) * 12);
+    padding-block: calc(var(--spacing) * 4);
   }
   .achivement-items {
     display: grid;
