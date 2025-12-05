@@ -111,23 +111,27 @@ a:hover {
     @apply flex flex-wrap gap-x-12 gap-y-4 justify-center-safe md:justify-evenly;
 }
 
-.card {
-    @apply py-6 px-8 rounded-lg shadow-sm/20 md:max-w-[300px];
+.community-cards {
+    @apply flex flex-col gap-6 p-4 md:justify-between md:flex-row;
 
-    .icon {
-        @apply py-2;
+    .card {
+        @apply py-6 px-8 rounded-lg shadow-sm/20 md:max-w-[300px];
 
-        img {
-            @apply m-auto;
+        .icon {
+            @apply py-2;
+
+            img {
+                @apply m-auto;
+            }
         }
-    }
 
-    h3 {
-        @apply heading-3 py-2;
-    }
+        h3 {
+            @apply heading-3 py-2;
+        }
 
-    p {
-        @apply text-sm;
+        p {
+            @apply text-sm;
+        }
     }
 }
 
