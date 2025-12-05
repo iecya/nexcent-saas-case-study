@@ -24,10 +24,21 @@
     --color-dark-grey: #4D4D4D;
     --color-grey: #717171;
     --color-silver: #F5F7FA;
+    --color-shadow: #ABBED1;
+
+    --shadow-sm: 0 2px 4px 0 var(--color-shadow);
 }
 
 @utility btn {
     @apply border border-primary rounded py-2 px-8;
+}
+
+@utility heading-3 {
+    @apply font-bold text-2xl/9 text-dark-grey;
+}
+
+p {
+    @apply text-grey;
 }
 
 .btn-primary {
@@ -44,4 +55,24 @@
 
 .heading-2 {
     @apply font-semibold text-4xl/11 text-dark-grey;
+}
+
+.card {
+    @apply py-6 px-8 rounded-lg shadow-sm/20;
+
+    .icon {
+        @apply py-2;
+
+        img {
+            @apply m-auto;
+        }
+    }
+
+    h3 {
+        @apply heading-3 py-2;
+    }
+
+    p {
+        @apply text-sm;
+    }
 }
