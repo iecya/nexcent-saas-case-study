@@ -28,6 +28,7 @@
     --color-shadow: #ABBED1;
 
     --shadow-sm: 0 2px 4px 0 var(--color-shadow);
+    --shadow-md: 0 8px 16px 0 var(--color-shadow);
 }
 
 @utility btn {
@@ -63,7 +64,7 @@ p {
 }
 
 .heading-4 {
-    @apply font-semibold text-2xl/7 text-dark-grey;
+    @apply font-semibold text-xl/7 text-dark-grey;
 }
 
 .card {
