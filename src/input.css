@@ -41,3 +41,7 @@
 .heading-1 {
     @apply font-semibold text-6xl/19 text-dark-grey;
 }
+
+.heading-2 {
+    @apply font-semibold text-4xl/11 text-dark-grey;
+}
