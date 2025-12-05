@@ -83,6 +83,10 @@ a:hover {
     @apply max-w-7xl mx-auto p-4 flex items-center justify-between gap-4;
 }
 
+.testimonials {
+    @apply flex-col lg:flex-row gap-0 lg:gap-18;
+}
+
 .align-sm-center-lg-left {
     @apply text-center lg:text-left;
 }

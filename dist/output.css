@@ -209,17 +209,11 @@
   .ms-1 {
     margin-inline-start: calc(var(--spacing) * 1);
   }
-  .mt-2 {
-    margin-top: calc(var(--spacing) * 2);
-  }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
-  }
-  .mb-2 {
-    margin-bottom: calc(var(--spacing) * 2);
   }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
@@ -407,9 +401,6 @@
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
   }
-  .py-16 {
-    padding-block: calc(var(--spacing) * 16);
-  }
   .text-center {
     text-align: center;
   }
@@ -544,11 +535,6 @@
   .lg\:gap-4 {
     @media (width >= 64rem) {
       gap: calc(var(--spacing) * 4);
-    }
-  }
-  .lg\:gap-18 {
-    @media (width >= 64rem) {
-      gap: calc(var(--spacing) * 18);
     }
   }
   .lg\:py-16 {
@@ -688,6 +674,16 @@ a:hover {
   justify-content: space-between;
   gap: calc(var(--spacing) * 4);
   padding: calc(var(--spacing) * 4);
+}
+.testimonials {
+  flex-direction: column;
+  gap: calc(var(--spacing) * 0);
+  @media (width >= 64rem) {
+    flex-direction: row;
+  }
+  @media (width >= 64rem) {
+    gap: calc(var(--spacing) * 18);
+  }
 }
 .align-sm-center-lg-left {
   text-align: center;
