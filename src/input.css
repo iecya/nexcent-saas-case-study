@@ -52,11 +52,11 @@ a:hover {
 }
 
 .btn-primary {
-    @apply btn w-auto text-silver bg-primary;
+    @apply btn inline-block w-fit text-silver bg-primary;
 }
 
 .btn-secondary {
-    @apply btn inline-block w-auto text-primary bg-white;
+    @apply btn inline-block w-fit text-primary bg-white;
 }
 
 .btn-transparent {
@@ -76,8 +76,7 @@ a:hover {
 }
 
 .container-fixed {
-    @apply max-w-7xl mx-auto p-4 flex items-center justify-between
-    /* @apply max-w-7xl mx-auto p-4 flex items-center justify-between flex-col gap-8 lg:flex-row lg:py-22 */
+    @apply max-w-7xl mx-auto p-4 flex items-center justify-between gap-8
 }
 
 .navbar {
@@ -100,6 +99,13 @@ a:hover {
     }
 }
 
+.hero-banner {
+    @apply flex-col lg:flex-row-reverse gap-4 lg:py-22;
+}
+
+.align-sm-center-lg-left {
+    @apply text-center lg:text-left;
+}
 
 .card {
     @apply py-6 px-8 rounded-lg shadow-sm/20 md:max-w-[300px];
