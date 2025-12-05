@@ -139,6 +139,18 @@ a:hover {
     @apply flex-col lg:flex-row;
 }
 
+.achievements {
+    @apply text-center flex-col justify-center lg:flex-row lg:gap-16 lg:py-12;
+
+    .achivement-items {
+        @apply grid gap-x-2 gap-y-6 grid-cols-1 md:grid-cols-2 md:gap-x-16;
+
+        .achievement-item {
+            @apply text-left flex gap-2 mx-auto min-w-52;
+        }
+    }
+}
+
 .newsletter {
     button {
         @apply outline-0 border-0 border-t border-r border-b border-transparent
