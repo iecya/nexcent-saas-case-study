@@ -39,7 +39,8 @@
     @apply font-bold text-2xl/9 text-dark-grey;
 }
 
-section {
+section,
+footer {
     @apply w-full py-8;
 }
 
@@ -187,20 +188,72 @@ a:hover {
     }
 }
 
-.newsletter {
-    button {
-        @apply outline-0 border-0 border-t border-r border-b border-transparent
-    }
-    input {
-        @apply outline-0 border-0 border-t border-l border-b border-transparent;
+.footer {
+    @apply flex-col text-silver gap-10 xl:flex-row justify-between xl:gap-4 xl:items-start;
 
-        &:focus {
-            @apply  border-silver; 
+    .identity {
+         @apply text-center xl:text-left flex-1 space-y-4;
 
-            & + button {
-                @apply  border-silver;
+         img {
+            @apply mx-auto xl:mx-0;
+         }
+
+         .socials {
+            @apply flex justify-center gap-8 mt-8 xl:justify-start;
+
+            a {
+                @apply hover:scale-125 transition-transform duration-200;
+
+                img {
+                    @apply w-10;
+                }
             }
+         }
+    }
+
+    .links {
+        @apply flex flex-col gap-8 lg:flex-row justify-between lg:gap-4 text-center lg:text-left flex-2;
+
+        h4 {
+            @apply font-bold text-2xl/7;
+        }
+
+        a {
+            @apply block my-4 text-lg;
+        }
+
+        .company,
+        .support,
+        .newsletter {
+            @apply flex-1 lg:w-1/3;
+        }
+
+        .newsletter {
+            form {
+                @apply py-8 flex gap-0 justify-center;
+
+                button {
+                    @apply outline-0 border-0 border-t border-r border-b border-transparent bg-white/20 px-4 rounded-tr-lg rounded-br-lg cursor-pointer;
+
+                    img {
+                        @apply hover:scale-110;
+                    }
+                
+                }
+
+                input {
+                    @apply outline-0 border-0 border-t border-l border-b border-transparent bg-white/20 py-2 px-4 rounded-bl-lg rounded-tl-lg lg:min-w-0 text-sm;
+
+                    &:focus {
+                        @apply  border-silver; 
+
+                        & + button {
+                            @apply  border-silver;
+                        }
+                    }
+                }
+            }
+            
         }
     }
-    
 }
