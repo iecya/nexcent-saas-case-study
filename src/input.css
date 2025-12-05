@@ -44,7 +44,7 @@ p {
 }
 
 .btn-primary {
-    @apply btn inline-block  w-auto text-silver bg-primary;
+    @apply btn w-auto text-silver bg-primary;
 }
 
 .btn-secondary {
