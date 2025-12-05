@@ -104,7 +104,7 @@ a:hover {
 }
 
 .hero-banner {
-    @apply flex-col lg:flex-row-reverse gap-4 lg:py-22;
+    @apply flex-col lg:flex-row-reverse lg:py-22;
 }
 
 .client-logos {
@@ -133,6 +133,10 @@ a:hover {
             @apply text-sm;
         }
     }
+}
+
+.benefits {
+    @apply flex-col lg:flex-row;
 }
 
 .newsletter {
