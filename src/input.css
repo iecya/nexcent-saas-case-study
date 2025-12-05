@@ -58,7 +58,7 @@ p {
 }
 
 .card {
-    @apply py-6 px-8 rounded-lg shadow-sm/20;
+    @apply py-6 px-8 rounded-lg shadow-sm/20 md:max-w-[300px];
 
     .icon {
         @apply py-2;
