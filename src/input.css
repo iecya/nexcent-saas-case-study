@@ -23,6 +23,7 @@
     --color-black: #000000;
     --color-dark-grey: #4D4D4D;
     --color-grey: #717171;
+    --color-light-grey: #89939E;
     --color-silver: #F5F7FA;
     --color-shadow: #ABBED1;
 
@@ -49,12 +50,20 @@ p {
     @apply btn inline-block w-auto text-primary bg-white;
 }
 
+.btn-transparent {
+    @apply btn w-auto text-primary border-0;
+}
+
 .heading-1 {
     @apply font-semibold text-6xl/19 text-dark-grey;
 }
 
 .heading-2 {
     @apply font-semibold text-4xl/11 text-dark-grey;
+}
+
+.heading-4 {
+    @apply font-semibold text-2xl/7 text-dark-grey;
 }
 
 .card {
