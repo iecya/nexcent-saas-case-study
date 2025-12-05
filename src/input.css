@@ -76,7 +76,11 @@ a:hover {
 }
 
 .container-fixed {
-    @apply max-w-7xl mx-auto p-4 flex items-center justify-between gap-8
+    @apply max-w-7xl mx-auto p-4 flex items-center justify-between gap-4
+}
+
+.align-sm-center-lg-left {
+    @apply text-center lg:text-left;
 }
 
 .navbar {
@@ -103,8 +107,8 @@ a:hover {
     @apply flex-col lg:flex-row-reverse gap-4 lg:py-22;
 }
 
-.align-sm-center-lg-left {
-    @apply text-center lg:text-left;
+.client-logos {
+    @apply flex flex-wrap gap-x-12 gap-y-4 justify-center-safe md:justify-evenly;
 }
 
 .card {
