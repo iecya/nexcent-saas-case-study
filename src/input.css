@@ -20,7 +20,7 @@
     --font-sans: 'Inter', sans-serif;
 
     --color-primary: #4CAF4F;
-    --color-black: #000000;
+    --color-black: #263238;
     --color-dark-grey: #4D4D4D;
     --color-grey: #717171;
     --color-light-grey: #89939E;
@@ -41,6 +41,10 @@
 
 p {
     @apply text-grey;
+}
+
+footer p {
+    @apply text-silver;
 }
 
 .btn-primary {
@@ -85,4 +89,22 @@ p {
     p {
         @apply text-sm;
     }
+}
+
+.newsletter {
+    button {
+        @apply outline-0 border-0 border-t border-r border-b border-transparent
+    }
+    input {
+        @apply outline-0 border-0 border-t border-l border-b border-transparent;
+
+        &:focus {
+            @apply  border-silver; 
+
+            & + button {
+                @apply  border-silver;
+            }
+        }
+    }
+    
 }
