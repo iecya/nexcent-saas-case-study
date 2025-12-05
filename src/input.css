@@ -75,6 +75,32 @@ a:hover {
     @apply font-semibold text-xl/7 text-dark-grey;
 }
 
+.container-fixed {
+    @apply max-w-7xl mx-auto p-4 flex items-center justify-between
+    /* @apply max-w-7xl mx-auto p-4 flex items-center justify-between flex-col gap-8 lg:flex-row lg:py-22 */
+}
+
+.navbar {
+    @apply bg-silver w-full z-20 top-0 start-0 sticky;
+
+    .toggle-button {
+        @apply p-2 w-10 h-10 lg:hidden focus:outline-none;
+    }
+
+    .nav-items {
+        @apply font-medium flex flex-col p-4 lg:p-0 mt-4 lg:flex-row lg:mt-0 lg:border-0 lg:space-x-8;
+
+        .nav-item {
+            @apply block py-2 text-dark-grey;
+        }
+    }
+
+    .acct-controls {
+        @apply text-sm font-medium;
+    }
+}
+
+
 .card {
     @apply py-6 px-8 rounded-lg shadow-sm/20 md:max-w-[300px];
 
