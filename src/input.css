@@ -67,6 +67,18 @@ a:hover {
     @apply btn w-auto text-primary border-0;
 }
 
+.btn-lg {
+    @apply font-semibold text-lg;
+}
+
+.btn-icon {
+    @apply inline-flex items-center;
+
+    svg {
+        @apply w-5 h-5 ms-1 rtl:rotate-180;
+    }
+}
+
 .heading-1 {
     @apply font-semibold text-6xl/19 text-dark-grey;
 }
@@ -161,6 +173,18 @@ a:hover {
 
 .showcase {
     @apply flex-col lg:flex-row;
+}
+
+.article-previews {
+    @apply flex flex-col items-center my-4 lg:flex-row gap-4 justify-between;
+
+    .article-preview {
+        @apply max-w-96 flex-1;
+
+        .article-details {
+            @apply max-w-4/5 m-auto bg-silver rounded-lg p-4 shadow-md/40 -translate-y-1/2;
+        }
+    }
 }
 
 .newsletter {
