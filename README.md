@@ -51,11 +51,7 @@ The page is live and can be visited <a href="https://iecya.github.io/nexcent-saa
 
 ### Portfolio Assets
 
-Demonstration videos available in the <a href="https://freelancerprofilenuxt.mesh.prod.platform.usw2.upwork/freelancers/~01a10883afaffe0cfd?p=1997205437886988288" target="_blank">Upwork portfolio entry</a> or Vimeo:
-
-- Mobile walkthrough (<a href="https://vimeo.com/1144062670?fl=ip&fe=ec" target="_blank">here</a>)
-- Tablet walkthrough (<a href="https://vimeo.com/1144074308?fl=ip&fe=ec)" target="_blank">here</a>)
-- Desktop walkthrough (<a href="https://vimeo.com/1144074301?fl=ip&fe=ec" target="_blank">here</a>)
+Demonstration videos available in the <a href="https://freelancerprofilenuxt.mesh.prod.platform.usw2.upwork/freelancers/~01a10883afaffe0cfd?p=1997205437886988288" target="_blank">Upwork portfolio entry</a> or <a href="https://vimeo.com/showcase/12011864?share=copy&fl=sm&fe=fs" target="_blank">Vimeo Showcase</a>.
 
 ## Learnings & Goals
 
