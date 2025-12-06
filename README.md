@@ -31,6 +31,11 @@ npm install
 npm run build
 ```
 
+or, for development:
+```
+npm run dev
+```
+
 ### Automated Build with GitHub Actions
 
 This project uses GitHub Actions to:
